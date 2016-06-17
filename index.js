@@ -11,7 +11,8 @@ let config = {
       text: fs.readFileSync('./welcome.md')
     }),
     require('./lib/docs.js'),
-    require('./lib/support.js')
+    require('./lib/support.js'),
+    require('./lib/links.js')
   ]
 };
 
